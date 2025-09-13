@@ -1,10 +1,10 @@
 # P16_Retail-Transaction-Analysis
 
-**VERSION 1**
+**VERSION 1 - Market Basket Analysis**
 
 **A. Project Overview**
 
-- This project aims to 
+- This project aims to explore associations between products and uncover buying patterns (MBA - Market Basket Analysis)
 
 **B. Dataset Information**
 
@@ -19,16 +19,26 @@ https://www.kaggle.com/datasets/prasad22/retail-transactions-dataset
 
 _**Period**_
 
-- 
+- From 2020 - 2024
 
 **C. Methodology**
 
 - Python (Google Colab):
-  + I. Data Cleaning:
-    - I.1. Check Column Type
-    - I.2. Check %Blank/Null
-    - I.3. Check %Zero Valur
-    - I.4. Check Outliers
+  + A. Data Cleaning:
+    - I. Data Checking:
+      + I.1. Check Column Type --> Column "Date" is in Object dtype
+      + I.2. Check %Blank/Null --> Column "Promotion": 33.4% (but these are "None")
+      + I.3. Check duplicate:
+        - For whole row
+        - For ID: Column "Transaction_ID"
+      + I.4. Check Outliers: by IQR & export for preventing numbers of outliers is too high
+        - Column "Total_Cost"
+        - Column "Total_Items"
+    - II. Data Handling
+      + II.1. Change type to datetime: Column "Date"
+        - Using pd.to_datetime
+      + II.2. Handle 33.4% blank of Column "Promotion"
+        - Add "keep_default_na= False" when read csv for preventing Python recording "None" value is N/A
 - Using Power BI for Dashboard visualize & find insights.
 
 **D. Key Findings & Actionable Plans**
@@ -40,6 +50,13 @@ _**Key Findings**_
 _**Actionable Plans**_
 
 - 
+
+**E. Further Version**
+
+In further version, I will used this dataset to:
+- Group customers based on purchasing behavior (Customer Segmentation) - Version 2
+- Optimize pricing strategies and identify opportunities for discounts and promotions (Price Optimization) - Version 3
+- Analyze store performance and customer trends (Retail Analytics) - Version 4
 
 **About Me**
 
