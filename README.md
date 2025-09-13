@@ -11,11 +11,9 @@
 _**Source**_
 
 - Retail Transactions Dataset (from Kaggle)
-
-https://www.kaggle.com/datasets/prasad22/retail-transactions-dataset
-
-- The dataset includes 01 files:
-  + Retail_Transactions_Dataset
+- https://www.kaggle.com/datasets/prasad22/retail-transactions-dataset
+- The dataset includes 01 files - Retail_Transactions_Dataset
+- The Data uploaded have only 100 rows for each file. Please visit the below Kaggle link for full data
 
 _**Period**_
 
