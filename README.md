@@ -37,6 +37,12 @@ _**Period**_
         - Using pd.to_datetime
       + II.2. Handle 33.4% blank of Column "Promotion"
         - Add "keep_default_na= False" when read csv for preventing Python recording "None" value is N/A
+    - III. Export cleaned data for the following version. After exporting, delete the row which make action download for MBA
+    - IV. MBA
+      + IV.1. Change dataset to "Transaction_ID – Item" type
+        - IV.1.1. Split Column "Product"
+        - IV.1.2. One-hot Encoding for Column "Product"
+        - IV.1.3. Apply Apriori Algorithm, Association Rules. Finnaly filter Top 10 by Support, Top 10 by Confidence, Top 10 by Lift
 - Using Power BI for Dashboard visualize & find insights.
 
 **D. Key Findings & Actionable Plans**
