@@ -59,7 +59,7 @@ Top 10 Products by Lift
 
 ![Top 10 Products by Lift](https://github.com/CallmeNavin/P16_Retail-Transaction-Analysis/blob/main/Version%201%20-%20MBA/Visualization/Top%2010%20by%20Lift.png)
 
-**E. Further Version**
+**F. Further Version**
 
 In further version, I will used this dataset to:
 - Group customers based on purchasing behavior (Customer Segmentation) - Version 2.
